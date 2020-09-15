@@ -30,7 +30,7 @@ class Transfer
       @receiver.deposit( @amount )
       @status = "complete"
     end
-  end
+  
 
   def reverse_transfer
     if @status == "complete"
